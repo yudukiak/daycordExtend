@@ -1,0 +1,8 @@
+table.fixed-columns > thead > tr > th {
+  height: 35px;
+  line-height: 1.8;
+  vertical-align: bottom;
+  > a {
+    margin-bottom: 0;
+  }
+}

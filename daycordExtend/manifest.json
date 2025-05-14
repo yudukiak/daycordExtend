@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "DaycordExtend",
+  "version": "0.0.1",
+  "description": "Daycord の日程表示を見やすく拡張します。",
+  "content_scripts": [
+    {
+      "matches": ["https://character-sheets.appspot.com/schedule/user*"],
+      "js": ["js/common.js", "js/user_ps_table.js"],
+      "css": ["css/common.css", "css/user_ps_table.css"]
+    },
+    {
+      "matches": ["https://character-sheets.appspot.com/schedule/list?key=*"],
+      "js": ["js/common.js", "js/list.js"],
+      "css": ["css/common.css", "css/list.css"]
+    }
+  ],
+  "permissions": []
+}
