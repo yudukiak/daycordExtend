@@ -18,9 +18,8 @@ table.schedule_table tbody tr:nth-child(even) th:first-child,
 table.table.is-striped tbody tr:not(.is-selected):nth-child(even),
 table.table.is-hoverable.is-striped tbody tr:not(.is-selected):hover,
 table.table.is-hoverable.is-striped tbody tr:not(.is-selected):hover:nth-child(even) {
-  background: transparent;
+  background: #fff;
 }
-
 
 .invalid {
   td {
