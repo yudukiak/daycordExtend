@@ -1,4 +1,3 @@
-
 :root {
   --color-red-50: oklch(0.971 0.013 17.38);
   --color-orange-50: oklch(0.98 0.016 73.684);
@@ -14,6 +13,7 @@
     background-color: var(--background-color);
   }
 }
+
 .saturday {
   --background-color: var(--color-sky-50);
   th {
@@ -23,6 +23,7 @@
     background-color: var(--background-color);
   }
 }
+
 .sunday {
   --background-color: var(--color-red-50);
   th {

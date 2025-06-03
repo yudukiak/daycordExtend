@@ -12,13 +12,18 @@
   "content_scripts": [
     {
       "matches": ["https://character-sheets.appspot.com/schedule/user*"],
-      "js": ["js/common.js", "js/user_ps_table.js"],
-      "css": ["css/common.css", "css/user_ps_table.css"]
+      "js": ["js/holiday.js", "js/user_ps_table.js"],
+      "css": ["css/holiday.css", "css/user_ps_table.css"]
     },
     {
       "matches": ["https://character-sheets.appspot.com/schedule/list?key=*"],
-      "js": ["js/common.js", "js/list.js"],
-      "css": ["css/common.css", "css/list.css"]
+      "js": ["js/holiday.js", "js/list.js"],
+      "css": ["css/holiday.css", "css/list.css"]
+    },
+    {
+      "matches": ["https://character-sheets.appspot.com/schedule/input?key=*"],
+      "js": ["js/holiday.js", "js/input.js"],
+      "css": ["css/holiday.css"]
     }
   ],
   "permissions": []

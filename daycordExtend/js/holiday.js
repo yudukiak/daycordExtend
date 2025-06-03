@@ -1,6 +1,3 @@
-// 曜日・祝日判定でクラスを付与する共通関数だよ〜😆
-// holidays-jp.github.io のAPIを使うヨ！
-
 window.addDateColorClass = (thElement, holidays = {}) => {
   if (!thElement || !thElement.innerText) return;
   const dateMatch = thElement.innerText.match(/(\d{4})\/(\d{1,2})\/(\d{1,2})/);
